@@ -388,21 +388,11 @@ based on 853x480
             <format>${gamelistDateFormat}</format>
             <visible>true</visible>
          </datetime>
-         <image name="players-icon">
-            <size>0 0.05</size><!-- 24 24 -->
-            <visible>true</visible>
-            <pos>0.82063306 0.85625</pos><!-- 700 411 -->
-         </image>
          <image name="play-time-icon">
             <size>0 0.05</size><!-- 24 24 -->
             <visible>true</visible>
             <pos>0.82063306 0.91875</pos><!-- 700 441 -->
          </image>
-         <text name="players">
-            <pos>0.86049238 0.85625</pos><!-- 734 411 -->
-            <fontSize>${gamelistMetadataFontSize}</fontSize>
-            <visible>true</visible>
-         </text>
          <text name="play-time">
             <pos>0.86049238 0.91875</pos><!-- 734 441 -->
             <fontSize>${gamelistMetadataFontSize}</fontSize>
