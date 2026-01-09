@@ -377,12 +377,10 @@ based on 853x480
             <lineSpacing>${gamelistDescriptionLineSpacing}</lineSpacing>
             <visible>true</visible>
          </text>
-         <image name="
-            players-icon
-            ">
+         <image name="players-icon">
             <visible>false</visible>
          </image>
-          <text name="players">
+         <text name="players">
             <visible>false</visible>
          </text>
          <image name="releasedate-icon">
