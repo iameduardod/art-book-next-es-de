@@ -382,6 +382,13 @@ based on 853x480
             <size>0 0.05</size><!-- 24 24 -->
             <visible>true</visible>
          </image>
+         <image name="last-played-icon">
+            <size>0 0.05</size><!-- 24 24 -->
+            <visible>true</visible>
+            <pos>0.82063306 0.79375</pos>
+            <path>./_inc/images/icon-lastplayed.svg</path>
+            <metadataElement>true</metadataElement>
+         </image>
          <image name="play-time-icon">
             <pos>0.82063306 0.91875</pos><!-- 700 441 -->
             <size>0 0.05</size><!-- 24 24 -->
@@ -391,6 +398,14 @@ based on 853x480
             <pos>0.86049238 0.725</pos><!-- 734 381 -->
             <fontSize>${gamelistMetadataFontSize}</fontSize>
             <format>${gamelistDateFormat}</format>
+            <visible>true</visible>
+         </datetime>
+         <datetime name="last-played">
+            <pos>0.86049238 0.79375</pos>
+            <fontSize>${gamelistMetadataFontSize}</fontSize>
+            <format>${gamelistDateFormat}</format>
+            <metadata>lastplayed</metadata>
+            <defaultValue>Never</defaultValue>
             <visible>true</visible>
          </datetime>
          <text name="play-time">
