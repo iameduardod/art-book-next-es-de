@@ -378,7 +378,7 @@ based on 853x480
             <visible>true</visible>
          </text>
          <image name="releasedate-icon">
-            <pos>0.82063306 0.79375</pos><!-- 700 381 -->
+            <pos>0.82063306 0.725</pos><!-- 700 381 -->
             <size>0 0.05</size><!-- 24 24 -->
             <visible>true</visible>
          </image>
@@ -388,7 +388,7 @@ based on 853x480
             <visible>true</visible>
          </image>
          <datetime name="releasedate">
-            <pos>0.86049238 0.79375</pos><!-- 734 381 -->
+            <pos>0.86049238 0.725</pos><!-- 734 381 -->
             <fontSize>${gamelistMetadataFontSize}</fontSize>
             <format>${gamelistDateFormat}</format>
             <visible>true</visible>
