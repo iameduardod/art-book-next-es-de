@@ -382,21 +382,19 @@ based on 640x480
             <visible>true</visible>
          </datetime>
           <image name="last-played-icon">
-             <pos>0.75 0.625</pos>
+            <pos>0.75 0.625</pos>
             <size>0 0.0625</size>
             <visible>true</visible>
             <path>./_inc/images/icon-lastplayed.svg</path>
-            <color>${gamelistListMetadataIconColor}</color>
             <metadataElement>true</metadataElement>
             <visible>true</visible>
          </image>
          <datetime name="last-played">
-            <pos>0.80625 0.625</pos><
+            <pos>0.80625 0.625</pos>
+            <fontSize>${gamelistMetadataFontSize}</fontSize>
+            <format>${gamelistDateFormat}</format>
             <metadata>lastplayed</metadata>
             <defaultValue>Never</defaultValue>
-            <fontPath>${fontRegular}</fontPath>
-            <lineSpacing>1</lineSpacing>
-            <color>${gamelistListMetadataColor}</color>
             <displayRelative>true</displayRelative>
             <visible>true</visible>
          </datetime>
