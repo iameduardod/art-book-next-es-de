@@ -116,6 +116,17 @@ https://github.com/anthonycaccese/art-book-next-es-de
          <color>${systemLogoColor}</color>
          <zIndex>3</zIndex>
       </image>
+      <text name="
+         system-game-count
+         ">
+         <origin>0 0.5</origin>
+         <fontPath>${fontLight}</fontPath>
+         <letterCase>uppercase</letterCase>
+         <systemdata>gamecount</systemdata>
+         <letterCase>capitalize</letterCase>
+         <color>${statusColor}</color>
+         <zIndex>5</zIndex>
+      </text>
    </view>
 
    <!--
