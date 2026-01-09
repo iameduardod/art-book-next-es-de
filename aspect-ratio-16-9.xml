@@ -386,19 +386,19 @@ based on 853x480
             <visible>true</visible>
          </image>
          <image name="releasedate-icon">
-            <pos>0.82063306 0.725</pos><!-- 700 348 -->
-         </image>
-         <image name="play-time-icon">
-            <pos>0.82063306 0.79375</pos><!-- 700 381 -->
+            <pos>0.82063306 0.725</pos>
          </image>
          <datetime name="releasedate">
-            <pos>0.82063306 0.91875</pos><!-- 700 441 -->
+            <pos>0.86049238 0.725</pos>
             <fontSize>${gamelistMetadataFontSize}</fontSize>
             <format>${gamelistDateFormat}</format>
             <visible>true</visible>
          </datetime>
+         <image name="play-time-icon">
+            <pos>0.82063306 0.85625</pos>
+         </image>
          <text name="play-time">
-            <pos>0.82063306 0.85625</pos><!-- 700 411 -->
+            <pos>0.86049238 0.85625</pos>
             <fontSize>${gamelistMetadataFontSize}</fontSize>
             <visible>true</visible>
          </text>
