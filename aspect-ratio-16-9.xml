@@ -377,16 +377,17 @@ based on 853x480
             <lineSpacing>${gamelistDescriptionLineSpacing}</lineSpacing>
             <visible>true</visible>
          </text>
-         <rating name="rating">
-            <size>0 0.05</size><!-- 24 24 -->
-            <pos>0.82063306 0.725</pos><!-- 700 348 -->
-            <visible>true</visible>
-         </rating>
          <image name="releasedate-icon">
             <size>0 0.05</size><!-- 24 24 -->
             <visible>true</visible>
-            <pos>0.82063306 0.79375</pos><!-- 700 381 -->
+            <pos>0.82063306 0.725</pos><!-- 700 381 -->
          </image>
+         <datetime name="releasedate">
+            <pos>0.86049238 0.725</pos><!-- 734 381 -->
+            <fontSize>${gamelistMetadataFontSize}</fontSize>
+            <format>${gamelistDateFormat}</format>
+            <visible>true</visible>
+         </datetime>
          <image name="players-icon">
             <size>0 0.05</size><!-- 24 24 -->
             <visible>true</visible>
@@ -397,12 +398,6 @@ based on 853x480
             <visible>true</visible>
             <pos>0.82063306 0.91875</pos><!-- 700 441 -->
          </image>
-         <datetime name="releasedate">
-            <pos>0.86049238 0.79375</pos><!-- 734 381 -->
-            <fontSize>${gamelistMetadataFontSize}</fontSize>
-            <format>${gamelistDateFormat}</format>
-            <visible>true</visible>
-         </datetime>
          <text name="players">
             <pos>0.86049238 0.85625</pos><!-- 734 411 -->
             <fontSize>${gamelistMetadataFontSize}</fontSize>
