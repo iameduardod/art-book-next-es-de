@@ -382,16 +382,16 @@ based on 640x480
             <visible>true</visible>
          </datetime>
           <image name="last-played-icon">
-             <origin>1 0.5</origin>
-            <pos>0.9453125 0.625</pos><!-- 605 300 -->
+             <pos>0.75 0.625</pos>
+            <size>0 0.0625</size>
+            <visible>true</visible>
             <path>./_inc/images/icon-lastplayed.svg</path>
             <color>${gamelistListMetadataIconColor}</color>
             <metadataElement>true</metadataElement>
             <visible>true</visible>
          </image>
          <datetime name="last-played">
-            <origin>1 0.5</origin>
-            <pos>0.9453125 0.625</pos><!-- 605 300 -->
+            <pos>0.80625 0.625</pos><
             <metadata>lastplayed</metadata>
             <defaultValue>Never</defaultValue>
             <fontPath>${fontRegular}</fontPath>
