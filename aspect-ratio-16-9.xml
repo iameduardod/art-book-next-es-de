@@ -377,26 +377,24 @@ based on 853x480
             <lineSpacing>${gamelistDescriptionLineSpacing}</lineSpacing>
             <visible>true</visible>
          </text>
-         <image name="
-            releasedate-icon,
-            players-icon,
-            play-time-icon
-            ">
-            <size>0 0.05</size><!-- 24 24 -->
-            <visible>true</visible>
-         </image>
          <rating name="rating">
             <size>0 0.05</size><!-- 24 24 -->
             <pos>0.82063306 0.725</pos><!-- 700 348 -->
             <visible>true</visible>
          </rating>
          <image name="releasedate-icon">
+            <size>0 0.05</size><!-- 24 24 -->
+            <visible>true</visible>
             <pos>0.82063306 0.79375</pos><!-- 700 381 -->
          </image>
          <image name="players-icon">
+            <size>0 0.05</size><!-- 24 24 -->
+            <visible>true</visible>
             <pos>0.82063306 0.85625</pos><!-- 700 411 -->
          </image>
          <image name="play-time-icon">
+            <size>0 0.05</size><!-- 24 24 -->
+            <visible>true</visible>
             <pos>0.82063306 0.91875</pos><!-- 700 441 -->
          </image>
          <datetime name="releasedate">
