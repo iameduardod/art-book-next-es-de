@@ -123,7 +123,7 @@ https://github.com/anthonycaccese/art-book-next-es-de
          <pos>0.5 0.7</pos>
          <fontPath>${fontLight}</fontPath>
          <letterCase>uppercase</letterCase>
-         <systemdata>gamecount</systemdata>
+         <systemdata>gamecountGames</systemdata>
          <letterCase>capitalize</letterCase>
          <color>${statusColor}</color>
          <zIndex>5</zIndex>
