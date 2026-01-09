@@ -377,16 +377,9 @@ based on 853x480
             <lineSpacing>${gamelistDescriptionLineSpacing}</lineSpacing>
             <visible>true</visible>
          </text>
-         <image name="
-            releasedate-icon,
-            players-icon,
-            play-time-icon,
-            last-played-icon
-            ">
+         <image name="releasedate-icon">
             <size>0 0.05</size><!-- 24 24 -->
             <visible>true</visible>
-         </image>
-         <image name="releasedate-icon">
             <pos>0.82063306 0.725</pos>
          </image>
          <datetime name="releasedate">
@@ -396,6 +389,8 @@ based on 853x480
             <visible>true</visible>
          </datetime>
          <image name="last-played-icon">
+            <size>0 0.05</size><!-- 24 24 -->
+            <visible>true</visible>
             <pos>0.82063306 0.79375</pos>
             <path>./_inc/images/icon-lastplayed.svg</path>
             <metadataElement>true</metadataElement>
@@ -410,6 +405,8 @@ based on 853x480
             <visible>true</visible>
          </datetime>
          <image name="play-time-icon">
+            <size>0 0.05</size><!-- 24 24 -->
+            <visible>true</visible>
             <pos>0.82063306 0.85625</pos>
          </image>
          <text name="play-time">
