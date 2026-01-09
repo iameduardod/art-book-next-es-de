@@ -119,7 +119,8 @@ https://github.com/anthonycaccese/art-book-next-es-de
       <text name="
          system-game-count
          ">
-         <origin>0 0.5</origin>
+         <verticalAlignment>bottom</verticalAlignment>
+         <horizontalAlignment>center</horizontalAlignment>
          <fontPath>${fontLight}</fontPath>
          <letterCase>uppercase</letterCase>
          <systemdata>gamecount</systemdata>
