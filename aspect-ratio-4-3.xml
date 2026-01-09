@@ -43,15 +43,6 @@ based on 640x480
          </helpsystem>
       </view>
       <view name="system">
-         <text name="
-            system-game-count
-            ">
-            <pos>0.046875 0.77407407</pos><!-- 90 836 -->
-            <size>0.30729167 ${systemGameCountFontSize}</size><!-- 590 36 -->
-            <fontSize>${systemGameCountFontSize}</fontSize>
-            <lineSpacing>1</lineSpacing>
-            <visible>true</visible>
-         </text>
          <helpsystem name="help-system-view">
             <origin>0.5 1</origin>
             <pos>0.5 0.9375</pos><!-- 50% 450 -->
@@ -144,6 +135,15 @@ based on 640x480
       <carousel name="system-carousel">
          <maxItemCount>4.15</maxItemCount>
       </carousel>
+            <text name="
+            system-game-count
+            ">
+            <pos>0.046875 0.77407407</pos><!-- 90 836 -->
+            <size>0.30729167 ${systemGameCountFontSize}</size><!-- 590 36 -->
+            <fontSize>${systemGameCountFontSize}</fontSize>
+            <lineSpacing>1</lineSpacing>
+            <visible>true</visible>
+         </text>
       <image name="system-logo">
          <maxSize>0.65 0.45</maxSize>
       </image>
