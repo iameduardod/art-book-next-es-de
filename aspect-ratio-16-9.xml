@@ -390,7 +390,7 @@ based on 853x480
             <metadataElement>true</metadataElement>
          </image>
          <image name="play-time-icon">
-            <pos>0.82063306 0.91875</pos><!-- 700 441 -->
+            <pos>0.82063306 0.85625</pos><!-- 700 441 -->
             <size>0 0.05</size><!-- 24 24 -->
             <visible>true</visible>
          </image>
@@ -409,7 +409,7 @@ based on 853x480
             <visible>true</visible>
          </datetime>
          <text name="play-time">
-            <pos>0.86049238 0.91875</pos><!-- 734 441 -->
+            <pos>0.86049238 0.85625</pos><!-- 734 441 -->
             <fontSize>${gamelistMetadataFontSize}</fontSize>
             <visible>true</visible>
          </text>
