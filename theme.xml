@@ -89,6 +89,18 @@ https://github.com/anthonycaccese/art-book-next-es-de
       <image name="background">
          <color>${systemBackgroundColor}</color>
       </image>
+      <text name="
+         system-game-count
+         ">
+         <origin>0.5 0.5</origin>
+         <horizontalAlignment>center</horizontalAlignment>
+         <fontPath>${fontLight}</fontPath>
+         <letterCase>uppercase</letterCase>
+         <systemdata>gamecount</systemdata>
+         <letterCase>capitalize</letterCase>
+         <color>${statusColor}</color>
+         <zIndex>5</zIndex>
+      </text>
       <carousel name="system-carousel">
          <origin>0 0</origin>
          <pos>0 0</pos>
@@ -116,19 +128,6 @@ https://github.com/anthonycaccese/art-book-next-es-de
          <color>${systemLogoColor}</color>
          <zIndex>3</zIndex>
       </image>
-      <text name="
-         system-game-count
-         ">
-         <origin>0.5 0.5</origin>
-         <verticalAlignment>bottom</verticalAlignment>
-         <horizontalAlignment>center</horizontalAlignment>
-         <fontPath>${fontLight}</fontPath>
-         <letterCase>uppercase</letterCase>
-         <systemdata>gamecount</systemdata>
-         <letterCase>capitalize</letterCase>
-         <color>${statusColor}</color>
-         <zIndex>5</zIndex>
-      </text>
    </view>
 
    <!--
