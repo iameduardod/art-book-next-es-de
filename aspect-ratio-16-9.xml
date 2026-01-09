@@ -385,11 +385,6 @@ based on 853x480
             <size>0 0.05</size><!-- 24 24 -->
             <visible>true</visible>
          </image>
-         <rating name="rating">
-            <size>0 0.05</size><!-- 24 24 -->
-            <pos>0.82063306 0.725</pos><!-- 700 348 -->
-            <visible>true</visible>
-         </rating>
          <image name="releasedate-icon">
             <pos>0.82063306 0.79375</pos><!-- 700 381 -->
          </image>
@@ -405,11 +400,6 @@ based on 853x480
             <format>${gamelistDateFormat}</format>
             <visible>true</visible>
          </datetime>
-         <text name="players">
-            <pos>0.86049238 0.85625</pos><!-- 734 411 -->
-            <fontSize>${gamelistMetadataFontSize}</fontSize>
-            <visible>true</visible>
-         </text>
          <text name="play-time">
             <pos>0.86049238 0.91875</pos><!-- 734 441 -->
             <fontSize>${gamelistMetadataFontSize}</fontSize>
