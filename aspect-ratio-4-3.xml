@@ -381,10 +381,9 @@ based on 640x480
             <format>${gamelistDateFormat}</format>
             <visible>true</visible>
          </datetime>
-          <image name="last-played-icon">
+         <image name="last-played-icon">
             <pos>0.75 0.625</pos>
             <size>0 0.0625</size>
-            <visible>true</visible>
             <path>./_inc/images/icon-lastplayed.svg</path>
             <metadataElement>true</metadataElement>
             <visible>true</visible>
