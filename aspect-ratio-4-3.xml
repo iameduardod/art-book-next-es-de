@@ -381,12 +381,25 @@ based on 640x480
             <format>${gamelistDateFormat}</format>
             <visible>true</visible>
          </datetime>
-         <rating name="rating">
+          <image name="last-played-icon">
+             <origin>1 0.5</origin>
+            <pos>0.9453125 0.625</pos><!-- 605 300 -->
+            <path>./_inc/images/icon-lastplayed.svg</path>
+            <color>${gamelistListMetadataIconColor}</color>
+            <metadataElement>true</metadataElement>
+            <visible>true</visible>
+         </image>
+         <datetime name="last-played">
             <origin>1 0.5</origin>
             <pos>0.9453125 0.625</pos><!-- 605 300 -->
-            <size>0 0.04583333</size><!-- 22 22 -->
+            <metadata>lastplayed</metadata>
+            <defaultValue>Never</defaultValue>
+            <fontPath>${fontRegular}</fontPath>
+            <lineSpacing>1</lineSpacing>
+            <color>${gamelistListMetadataColor}</color>
+            <displayRelative>true</displayRelative>
             <visible>true</visible>
-         </rating>
+         </datetime>
          <text name="description">
             <pos>0.5546875 0.69583333</pos><!-- 355 334 -->
             <size>0.390625 0.25</size><!-- 250 120 -->
