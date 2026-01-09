@@ -377,15 +377,6 @@ based on 853x480
             <lineSpacing>${gamelistDescriptionLineSpacing}</lineSpacing>
             <visible>true</visible>
          </text>
-         <image name="players-icon">
-            <visible>false</visible>
-         </text>
-         <text name="players-label">
-            <visible>false</visible>
-         </text>
-         <text name="players">
-            <visible>false</visible>
-         </text>
          <rating name="rating">
             <size>0 0.05</size><!-- 24 24 -->
             <pos>0.82063306 0.725</pos><!-- 700 348 -->
